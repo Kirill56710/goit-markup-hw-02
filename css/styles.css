@@ -1,83 +1,86 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+.link {
+  text-decoration: none;
 }
-.button 
-{background: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    color: #FFFFFF;
-    width: 200px;
-    height: 50px;
-    border: 0;
+.button {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+  width: 200px;
+  height: 50px;
+  border: 0;
 }
-.button:hover{
-        background-color:#188ce8 ;
-        color: #FFFFFF;
+.button:hover {
+  background-color: #188ce8;
+  color: #ffffff;
 }
 .section.black {
-    background: #2F303A;
-    color: rgb(255, 255, 255);
-    transition: all 3
+  background: #2f303a;
+  color: rgb(255, 255, 255);
+  transition: all 3;
 }
 .footer-black {
-    color: rgb(255, 255, 255);
-    background: #2F303A;
-    transition: all 3
+  color: rgb(255, 255, 255);
+  background: #2f303a;
+  transition: all 3;
 }
 .map {
-    color: #FFFFFF;
+  color: #ffffff;
 }
 .contacts-footer {
-    color: #FFFFFF;
+  color: #ffffff;
 }
-.logo{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    letter-spacing: 0.03em;
-    color: #2196F3;
+.logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
 }
-.button2
-{background: #2196F3;
-    width: 73px;
-    height: 38px;
-    color: #FFFFFF;
-    border: 0;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px
+.button2 {
+  background: #2196f3;
+  width: 73px;
+  height: 38px;
+  color: #ffffff;
+  border: 0;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 .button3 {
-    width: 125px;
-    height: 38px;
-    background: #F5F4FA;
-    border-radius: 4px;
-    border: 0;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  width: 125px;
+  height: 38px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: 0;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .button4 {
-    width: 112px;
-    height: 38px;
-    background: #F5F4FA;
-    border-radius: 4px;
-    border: 0;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  width: 112px;
+  height: 38px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: 0;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .button5 {
-    width: 103px;
-    height: 38px;
-    background: #F5F4FA;
-    border-radius: 4px;
-    border: 0;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  width: 103px;
+  height: 38px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: 0;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .button6 {
-    width: 130px;
-    height: 38px;
-    background: #F5F4FA;
-    border-radius: 4px;
-    border: 0;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  width: 130px;
+  height: 38px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: 0;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
