@@ -1,14 +1,25 @@
-.link {
-  text-decoration: none;
+:root {
+  --color-background-primary: #ffffff;
+  --color-background-secondary: #f5f4fa;
+  --color-background-footer: #2f303a;
+  --color-text-primary: #757575;
+  --color-text-title: #212121;
+  --color-accent: #2196f3;
+  --color-logo: #000000;
+  --color-hover: #188ce8;
 }
-/*пoчему то не работает*/
-.site-nav {
-  color: #212121;
+.link {
+  color: var(--color-text-title);
+  text-decoration: none;
   list-style: none;
+}
+.link:hover {
+  color: #2196f3;
 }
 .ul-header {
-  color: #212121;
+  color: var(--color-text-title);
   list-style: none;
+  text-decoration: none;
 }
 .logo {
   font-family: 'Raleway';
@@ -16,37 +27,37 @@
   font-weight: 700;
   font-size: 26px;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--color-accent);
 }
 .logo-header {
-  color: #000000;
+  color: var(--color-logo);
 }
 .logo-footer {
-  color: #ffffff;
+  color: var(--color-background-primary);
 }
 .ul {
   list-style: none;
 }
 .button {
-  background: #2196f3;
+  background: var(--color-accent);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  color: #ffffff;
+  color: var(--color-background-primary);
   width: 200px;
   height: 50px;
   border: 0;
 }
 .button:hover {
-  background-color: #188ce8;
-  color: #ffffff;
+  background-color: var(--color-hover);
+  color: var(--color-background-primary);
 }
 .section.black {
-  background: #2f303a;
+  background: var(--color-background-footer);
   color: rgb(255, 255, 255);
   transition: all 3;
 }
 .section.grey {
-  background: #f5f4fa;
+  background: var(--color-background-secondary);
 }
 .section.white {
   background: #f5f5f5;
@@ -73,7 +84,7 @@
   border-radius: 4px;
 }
 .button2:hover {
-  background-color: #188ce8;
+  background-color: var(--color-hover);
   color: #ffffff;
 }
 .button3 {
@@ -87,7 +98,7 @@
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .button3:hover {
-  border-color: #188ce8;
+  border-color: var(--color-hover);
 }
 .button4 {
   width: 112px;
@@ -100,7 +111,7 @@
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .button4:hover {
-  border-color: #188ce8;
+  border-color: var(--color-hover);
 }
 .button5 {
   width: 103px;
@@ -113,7 +124,7 @@
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .button5:hover {
-  border-color: #188ce8;
+  border-color: var(--color-hover);
 }
 .button6 {
   width: 130px;
@@ -126,7 +137,7 @@
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .button6:hover {
-  border-color: #188ce8;
+  border-color: var(--color-hover);
 }
 /*штука для скрытия текста*/
 .visually-hidden {
