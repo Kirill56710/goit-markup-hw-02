@@ -1,15 +1,13 @@
-body {
-  background-color: var(--background-color);
-  color: var(--main-text-color);
-  font-family: var(--main-font);
-  font-size: 14px;
-  letter-spacing: 0.03em;
-}
 .link {
   text-decoration: none;
 }
-.site-nav .link.curent {
-  color: #2196f3;
+/*пoчему то не работает*/
+.site-nav {
+  color: #212121;
+  list-style: none;
+}
+.ul-header {
+  color: #212121;
   list-style: none;
 }
 .logo {
@@ -130,6 +128,7 @@ body {
 .button6:hover {
   border-color: #188ce8;
 }
+/*штука для скрытия текста*/
 .visually-hidden {
   position: absolute;
   width: 1px;
