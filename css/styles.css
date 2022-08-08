@@ -191,3 +191,14 @@ p {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.site-nav {
+  color: var(--color-text-title);
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+  font-style: Medium;
+  font-weight: 500;
+}
+.site-nav:hover {
+  color: #2196f3;
+}
