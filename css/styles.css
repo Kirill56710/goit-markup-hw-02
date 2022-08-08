@@ -2,16 +2,22 @@
   --color-background-primary: #ffffff;
   --color-background-secondary: #f5f4fa;
   --color-background-footer: #2f303a;
-  --color-text-primary: #757575;
+  --color-p: #757575;
   --color-text-title: #212121;
   --color-accent: #2196f3;
   --color-logo: #000000;
   --color-hover: #188ce8;
+  --font-main: 'Roboto', sans-serif;
+  --font-logo: 'Raleway', sans-serif;
 }
+/* ===== cтудия,портфолио,контакты почему то не получают стили и остаються с точками =( ===== */
 .link {
   color: var(--color-text-title);
   text-decoration: none;
   list-style: none;
+  font-family: 'Roboto', sans-serif;
+  font-style: Medium;
+  font-weight: 500;
 }
 .link:hover {
   color: #2196f3;
@@ -20,6 +26,9 @@
   color: var(--color-text-title);
   list-style: none;
   text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-style: Medium;
+  font-weight: 500;
 }
 .logo {
   font-family: 'Raleway';
@@ -35,6 +44,23 @@
 .logo-footer {
   color: var(--color-background-primary);
 }
+.h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: var(--color-p);
+}
 .ul {
   list-style: none;
 }
@@ -46,6 +72,8 @@
   width: 200px;
   height: 50px;
   border: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
 }
 .button:hover {
   background-color: var(--color-hover);
@@ -82,6 +110,8 @@
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
 }
 .button2:hover {
   background-color: var(--color-hover);
@@ -96,6 +126,8 @@
   border-color: #f5f4fa;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
 }
 .button3:hover {
   border-color: var(--color-hover);
@@ -109,6 +141,8 @@
   border-color: #f5f4fa;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
 }
 .button4:hover {
   border-color: var(--color-hover);
@@ -122,6 +156,8 @@
   border-color: #f5f4fa;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
 }
 .button5:hover {
   border-color: var(--color-hover);
@@ -135,6 +171,8 @@
   border-color: #f5f4fa;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
 }
 .button6:hover {
   border-color: var(--color-hover);
