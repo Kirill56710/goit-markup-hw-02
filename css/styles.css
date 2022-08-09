@@ -34,6 +34,9 @@
   text-decoration: underline;
   color: #2196f3;
 }
+.studia-link.curent {
+  color: var(--color-accent);
+}
 .portfolio-link {
   color: var(--color-text-title);
   font-family: 'Roboto', sans-serif;
@@ -49,6 +52,9 @@
 .portfolio-link:focus {
   text-decoration: underline;
   color: #2196f3;
+}
+.portfolio-link.curent {
+  color: var(--color-accent);
 }
 .contact-link {
   color: var(--color-text-title);
