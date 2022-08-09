@@ -10,25 +10,91 @@
   --font-main: 'Roboto', sans-serif;
   --font-logo: 'Raleway', sans-serif;
 }
-/* ===== cтудия,портфолио,контакты почему то не получают стили и остаються с точками =( ===== */
-.link {
-  color: var(--color-text-title);
-  text-decoration: none;
-  list-style: none;
+.body {
   font-family: 'Roboto', sans-serif;
-  font-style: Medium;
   font-weight: 500;
+  list-style: none;
+  text-decoration: none;
+  background-color: #ffffff;
+  color: var(--color-text-title);
+  font-size: 14px;
 }
-.link:hover {
+/* ===== cтудия,портфолио,контакты почему то не получают стили и остаються с точками =( ===== */
+.studia-link {
+  color: var(--color-text-title);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  font-style: medium;
+  letter-spacing: 2%;
+  text-decoration: none;
+  line-height: 16px;
+}
+.studia-link:hover {
+  text-decoration: underline;
   color: #2196f3;
 }
-.ul-header {
+.portfolio-link {
   color: var(--color-text-title);
-  list-style: none;
-  text-decoration: none;
   font-family: 'Roboto', sans-serif;
-  font-style: Medium;
   font-weight: 500;
+  font-size: 14px;
+  font-style: medium;
+  letter-spacing: 2%;
+  text-decoration: none;
+  line-height: 16px;
+}
+.portfolio-link:hover {
+  text-decoration: underline;
+  color: #2196f3;
+}
+.contact-link {
+  color: var(--color-text-title);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  font-style: medium;
+  letter-spacing: 2%;
+  text-decoration: none;
+  line-height: 16px;
+}
+.contact-link:hover {
+  text-decoration: underline;
+  color: #2196f3;
+}
+.link {
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+}
+.mail-link {
+  color: var(--color-text-title);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  font-style: medium;
+  letter-spacing: 2%;
+  text-decoration: none;
+  line-height: 16px;
+}
+.mail-link:hover {
+  text-decoration: underline;
+  color: #2196f3;
+}
+.namber-link {
+  color: #757575;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  font-style: medium;
+  letter-spacing: 2%;
+  text-decoration: none;
+  line-height: 16px;
+}
+.namber-link:hover {
+  text-decoration: underline;
+  color: #2196f3;
 }
 .logo {
   font-family: 'Raleway';
@@ -44,25 +110,48 @@
 .logo-footer {
   color: var(--color-background-primary);
 }
-.h1 {
+.title {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
+  color: #ffffff;
+  font-style: Black;
+  font-size: 44px;
+  line-height: 60px;
+  line-height: 116%;
+  align: Center;
+  vertical-align: Top;
+  letter-spacing: 6%;
+  text-transform: uppercase;
 }
-h2 {
+.subject {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
+  color: var(--color-text-title);
+  font-style: bold;
+  letter-spacing: 3%;
+  font-size: 36px;
 }
-h3 {
+.heading {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
+  color: var(--color-text-title);
+  font-style: Medium;
+  letter-spacing: 3%;
+  font-size: 16px;
 }
 p {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   color: var(--color-p);
+  font-style: normal;
+  letter-spacing: 3%;
+  font-size: 16px;
 }
-.ul {
+ul {
   list-style: none;
+}
+.heading-uppercase {
+  text-transform: uppercase;
 }
 .button {
   background: var(--color-accent);
@@ -89,17 +178,6 @@ p {
 }
 .section.white {
   background: #f5f5f5;
-}
-.footer-black {
-  color: rgb(255, 255, 255);
-  background: #2f303a;
-  transition: all 3;
-}
-.map {
-  color: #ffffff;
-}
-.contacts-footer {
-  color: #ffffff;
 }
 .button2 {
   background: #2196f3;
@@ -177,6 +255,40 @@ p {
 .button6:hover {
   border-color: var(--color-hover);
 }
+.footer-black {
+  color: rgb(255, 255, 255);
+  background: #2f303a;
+  transition: all 3;
+}
+.map {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  font-style: medium;
+  letter-spacing: 3%;
+  text-decoration: none;
+  line-height: 24px;
+}
+.map:hover {
+  text-decoration: underline;
+  color: #2196f3;
+}
+.contacts-footer {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  font-style: medium;
+  letter-spacing: 3%;
+  text-decoration: none;
+  line-height: 24px;
+}
+.contacts-footer:hover {
+  text-decoration: underline;
+  color: #2196f3;
+}
+
 /*штука для скрытия текста*/
 .visually-hidden {
   position: absolute;
@@ -190,15 +302,4 @@ p {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-.site-nav {
-  color: var(--color-text-title);
-  text-decoration: none;
-  list-style: none;
-  font-family: 'Roboto', sans-serif;
-  font-style: Medium;
-  font-weight: 500;
-}
-.site-nav:hover {
-  color: #2196f3;
 }
