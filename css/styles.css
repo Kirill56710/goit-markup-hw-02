@@ -30,7 +30,8 @@
   text-decoration: none;
   line-height: 16px;
 }
-.studia-link:hover {
+.studia-link:hover,
+.studia-link:focus {
   text-decoration: underline;
   color: #2196f3;
 }
@@ -44,7 +45,9 @@
   text-decoration: none;
   line-height: 16px;
 }
-.portfolio-link:hover {
+
+.portfolio-link:hover,
+.portfolio-link:focus {
   text-decoration: underline;
   color: #2196f3;
 }
@@ -58,14 +61,16 @@
   text-decoration: none;
   line-height: 16px;
 }
-.contact-link:hover {
+.contact-link:hover,
+.contact-link:focus {
   text-decoration: underline;
   color: #2196f3;
 }
 .link {
   text-decoration: none;
 }
-.link:hover {
+.link:hover,
+.link:focus {
   text-decoration: underline;
 }
 .mail-link {
@@ -78,7 +83,8 @@
   text-decoration: none;
   line-height: 16px;
 }
-.mail-link:hover {
+.mail-link:hover,
+.mail-link:focus {
   text-decoration: underline;
   color: #2196f3;
 }
@@ -92,7 +98,8 @@
   text-decoration: none;
   line-height: 16px;
 }
-.namber-link:hover {
+.namber-link:hover,
+.namber-link:focus {
   text-decoration: underline;
   color: #2196f3;
 }
@@ -164,7 +171,8 @@ ul {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
 }
-.button:hover {
+.button:hover,
+.button:focus {
   background-color: var(--color-hover);
   color: var(--color-background-primary);
 }
@@ -191,7 +199,8 @@ ul {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
 }
-.button2:hover {
+.button2:hover,
+.button2:focus {
   background-color: var(--color-hover);
   color: #ffffff;
 }
@@ -207,7 +216,8 @@ ul {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
 }
-.button3:hover {
+.button3:hover,
+.button3:focus {
   border-color: var(--color-hover);
 }
 .button4 {
@@ -222,7 +232,8 @@ ul {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
 }
-.button4:hover {
+.button4:hover,
+.button4:focus {
   border-color: var(--color-hover);
 }
 .button5 {
@@ -237,7 +248,8 @@ ul {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
 }
-.button5:hover {
+.button5:hover,
+.button5:focus {
   border-color: var(--color-hover);
 }
 .button6 {
@@ -252,7 +264,8 @@ ul {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
 }
-.button6:hover {
+.button6:hover,
+.button6:focus {
   border-color: var(--color-hover);
 }
 .footer-black {
@@ -270,7 +283,8 @@ ul {
   text-decoration: none;
   line-height: 24px;
 }
-.map:hover {
+.map:hover,
+.map:focus {
   text-decoration: underline;
   color: #2196f3;
 }
@@ -284,7 +298,8 @@ ul {
   text-decoration: none;
   line-height: 24px;
 }
-.contacts-footer:hover {
+.contacts-footer:hover,
+.contacts-footer:focus {
   text-decoration: underline;
   color: #2196f3;
 }
