@@ -12,12 +12,10 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
-  list-style: normal;
-  text-decoration: none;
   color: var(--color-text-title);
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
 }
 .studia-link {
   color: var(--color-text-title);
@@ -25,7 +23,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   font-style: medium;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   text-decoration: none;
   line-height: 1.14;
 }
@@ -42,7 +40,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   font-style: medium;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   text-decoration: none;
   line-height: 16px;
 }
@@ -60,7 +58,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   font-style: medium;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   text-decoration: none;
   line-height: 16px;
 }
@@ -78,7 +76,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   font-style: medium;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   text-decoration: none;
   line-height: 16px;
 }
@@ -92,7 +90,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   font-style: medium;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   text-decoration: none;
   line-height: 16px;
 }
@@ -118,9 +116,8 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
   color: #ffffff;
-  font-style: Black;
   font-size: 44px;
-  line-height: 116%;
+  line-height: 1.16;
   align: Center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -154,6 +151,7 @@ p {
 }
 .heading-uppercase {
   text-transform: uppercase;
+  font-size: 14px;
 }
 .button {
   background: var(--color-accent);
@@ -163,13 +161,17 @@ p {
   width: 200px;
   height: 50px;
   border: 0;
+  font-size: 16px;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
+  line-height: 1.6;
+  align: Center;
+  letter-spacing: 0.06em;
   cursor: pointer;
 }
-.button:hover .button:focus {
+.button:hover,
+.button:focus {
   background-color: var(--color-hover);
-  color: var(--color-background-primary);
 }
 .section.black {
   background: var(--color-background-footer);
@@ -191,6 +193,9 @@ p {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   cursor: pointer;
+  font-size: 16px;
+  line-height: 1.39%;
+  letter-spacing: 0.03em;
 }
 .button2:hover,
 .button2:focus {
@@ -210,6 +215,9 @@ p {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   cursor: pointer;
+  font-size: 16px;
+  line-height: 1.39%;
+  letter-spacing: 0.03em;
 }
 .button3:hover,
 .button3:focus {
@@ -228,6 +236,9 @@ p {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   cursor: pointer;
+  font-size: 16px;
+  line-height: 1.39%;
+  letter-spacing: 0.03em;
 }
 .button4:hover,
 .button4:focus {
@@ -246,6 +257,9 @@ p {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   cursor: pointer;
+  font-size: 16px;
+  line-height: 1.39%;
+  letter-spacing: 0.03em;
 }
 .button5:hover,
 .button5:focus {
@@ -264,6 +278,9 @@ p {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   cursor: pointer;
+  font-size: 16px;
+  line-height: 1.39%;
+  letter-spacing: 0.03em;
 }
 .button6:hover,
 .button6:focus {
@@ -273,7 +290,6 @@ p {
 .footer-black {
   color: rgb(255, 255, 255);
   background: #2f303a;
-  transition: all 3;
 }
 .map {
   color: #ffffff;
