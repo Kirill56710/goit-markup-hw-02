@@ -13,8 +13,8 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--color-text-title);
+  background-color: var(--color-background-primary);
   font-size: 14px;
-  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 .studia-link {
@@ -42,7 +42,7 @@ body {
   font-style: medium;
   letter-spacing: 0.02em;
   text-decoration: none;
-  line-height: 16px;
+  line-height: 1.14;
 }
 
 .portfolio-link:hover,
@@ -60,7 +60,7 @@ body {
   font-style: medium;
   letter-spacing: 0.02em;
   text-decoration: none;
-  line-height: 16px;
+  line-height: 1.14;
 }
 .link.current,
 .contact-link:hover,
@@ -78,7 +78,7 @@ body {
   font-style: medium;
   letter-spacing: 0.02em;
   text-decoration: none;
-  line-height: 16px;
+  line-height: 1.14;
 }
 .mail-link:hover,
 .mail-link:focus {
@@ -92,7 +92,7 @@ body {
   font-style: medium;
   letter-spacing: 0.02em;
   text-decoration: none;
-  line-height: 16px;
+  line-height: 1.14;
 }
 .namber-link:hover,
 .namber-link:focus {
@@ -105,6 +105,7 @@ body {
   font-size: 26px;
   letter-spacing: 0.03em;
   color: var(--color-accent);
+  line-height: 1.19;
 }
 .logo-header {
   color: var(--color-logo);
@@ -117,41 +118,59 @@ body {
   font-weight: 900;
   color: #ffffff;
   font-size: 44px;
-  line-height: 1.16;
-  align: Center;
+  line-height: 1.36;
+  text-align: Center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-.subject {
+.subject-first {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   color: var(--color-text-title);
-  font-style: bold;
   letter-spacing: 0.03em;
   font-size: 36px;
+  line-height: 1.17;
+  text-align: Center;
 }
-.heading {
+.subject-second {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: var(--color-text-title);
+  letter-spacing: 0.03em;
+  font-size: 18px;
+  line-height: 2;
+}
+.heading-text {
+  color: var(--color-p);
+  line-height: 1.71;
+}
+.employee {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   color: var(--color-text-title);
   font-style: Medium;
   letter-spacing: 0.03em;
   font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
 }
-p {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+.job-title {
   color: var(--color-p);
-  font-style: normal;
-  letter-spacing: 0.03em;
-  font-size: 16px;
+  font-size: 16;
+  line-height: 1.19;
+  text-align: center;
+}
+.subject-text {
+  color: var(--color-p);
+  font-size: 16;
+  line-height: 1.9;
 }
 .list {
   list-style: none;
 }
 .heading-uppercase {
   text-transform: uppercase;
-  font-size: 14px;
+  line-height: 1.4;
 }
 .button {
   background: var(--color-accent);
@@ -164,7 +183,7 @@ p {
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  line-height: 1.6;
+  line-height: 1.9;
   align: Center;
   letter-spacing: 0.06em;
   cursor: pointer;
@@ -176,7 +195,6 @@ p {
 .section.black {
   background: var(--color-background-footer);
   color: rgb(255, 255, 255);
-  transition: all 3;
 }
 .section.grey {
   background: var(--color-background-secondary);
@@ -194,7 +212,7 @@ p {
   font-weight: 500;
   cursor: pointer;
   font-size: 16px;
-  line-height: 1.39%;
+  line-height: 1.6;
   letter-spacing: 0.03em;
 }
 .button2:hover,
@@ -216,7 +234,7 @@ p {
   font-weight: 500;
   cursor: pointer;
   font-size: 16px;
-  line-height: 1.39%;
+  line-height: 1.6;
   letter-spacing: 0.03em;
 }
 .button3:hover,
@@ -237,7 +255,7 @@ p {
   font-weight: 500;
   cursor: pointer;
   font-size: 16px;
-  line-height: 1.39%;
+  line-height: 1.6;
   letter-spacing: 0.03em;
 }
 .button4:hover,
@@ -258,7 +276,7 @@ p {
   font-weight: 500;
   cursor: pointer;
   font-size: 16px;
-  line-height: 1.39%;
+  line-height: 1.6;
   letter-spacing: 0.03em;
 }
 .button5:hover,
@@ -279,7 +297,7 @@ p {
   font-weight: 500;
   cursor: pointer;
   font-size: 16px;
-  line-height: 1.39%;
+  line-height: 1.6;
   letter-spacing: 0.03em;
 }
 .button6:hover,
@@ -299,7 +317,7 @@ p {
   font-style: normal;
   letter-spacing: 0.03em;
   text-decoration: none;
-  line-height: 24px;
+  line-height: 1.71;
 }
 .map:hover,
 .map:focus {
@@ -313,7 +331,7 @@ p {
   font-style: medium;
   letter-spacing: 0, 03em;
   text-decoration: none;
-  line-height: 24px;
+  line-height: 1.71;
 }
 .contacts-footer:hover,
 .contacts-footer:focus {
