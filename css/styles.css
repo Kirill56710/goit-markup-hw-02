@@ -159,13 +159,13 @@ img {
 }
 .job-title {
   color: var(--color-p);
-  font-size: 16;
+  font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
 .subject-text {
   color: var(--color-p);
-  font-size: 16;
+  font-size: 16px;
   line-height: 1.9;
 }
 .list {
@@ -174,6 +174,7 @@ img {
 .heading-uppercase {
   text-transform: uppercase;
   line-height: 1.4;
+  font-size: 14px;
 }
 .button {
   background: var(--color-accent);
