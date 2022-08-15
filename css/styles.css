@@ -10,7 +10,25 @@
   --font-main: 'Roboto', sans-serif;
   --font-logo: 'Raleway', sans-serif;
 }
+html {
+  box-sizing: border-box;
+}
+*,
+*::before *::after {
+  box-sizing: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 body {
+  margin: 0;
   font-family: 'Roboto', sans-serif;
   color: var(--color-text-title);
   background-color: var(--color-background-primary);
@@ -170,6 +188,8 @@ img {
 }
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .heading-uppercase {
   text-transform: uppercase;
@@ -177,18 +197,19 @@ img {
   font-size: 14px;
 }
 .button {
+  display: inline-block;
   background: var(--color-accent);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: var(--color-background-primary);
-  width: 200px;
+  min-width: 200px;
   height: 50px;
   border: 0;
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   line-height: 1.9;
-  align: Center;
+  text-align: Center;
   letter-spacing: 0.06em;
   cursor: pointer;
 }
@@ -205,7 +226,7 @@ img {
 }
 .button2 {
   background: #f5f4fa;
-  width: 73px;
+  min-width: 73px;
   height: 38px;
   color: #212121;
   border: 0;
@@ -225,7 +246,7 @@ img {
   color: #ffffff;
 }
 .button3 {
-  width: 125px;
+  min-width: 125px;
   height: 38px;
   color: #212121;
   background: #f5f4fa;
@@ -247,7 +268,7 @@ img {
   color: #ffffff;
 }
 .button4 {
-  width: 112px;
+  min-width: 112px;
   height: 38px;
   background: #f5f4fa;
   border-radius: 4px;
@@ -268,7 +289,7 @@ img {
   color: #ffffff;
 }
 .button5 {
-  width: 103px;
+  min-width: 103px;
   height: 38px;
   background: #f5f4fa;
   border-radius: 4px;
@@ -289,7 +310,7 @@ img {
   color: #ffffff;
 }
 .button6 {
-  width: 130px;
+  min-width: 130px;
   height: 38px;
   background: #f5f4fa;
   border-radius: 4px;
